@@ -4,19 +4,18 @@
 
 <head>
     <title>Help</title>
-    <link rel="icon" href="/img/weather.png">
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="icon" href="/img/weather.png">    
+    {{>head}}
 </head>
 
 <body>
-    <div class="main-content">
+    <div class="container-fluid">
         {{>header}}
-        <p>{{helpText}}</p>
-
-        
-    </div>
-    
+        <p>{{helpText}}</p>        
+    </div>    
     {{>footer}}
+
+    {{>scriptloader}}
 </body>
 
 </html>
